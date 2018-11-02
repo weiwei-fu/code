@@ -21,7 +21,7 @@ public class ZKCreater {
     }
 
     public static void main(String[] args) {
-        String path = "/fww";
+        String path = "/MyFirstZnode";
         byte[] description = "test for zookeeper".getBytes();
 
         try {
