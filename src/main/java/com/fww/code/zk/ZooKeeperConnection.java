@@ -9,7 +9,7 @@ import java.util.concurrent.CountDownLatch;
 /**
  * Created by @author fww on 2018/11/2.
  */
-public class ZookeeperConnection {
+public class ZooKeeperConnection {
 
     private ZooKeeper zooKeeper;
 

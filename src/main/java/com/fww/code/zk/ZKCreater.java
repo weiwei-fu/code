@@ -14,7 +14,7 @@ public class ZKCreater {
 
     private static ZooKeeper zooKeeper;
 
-    private static ZookeeperConnection zookeeperConnection;
+    private static ZooKeeperConnection zooKeeperConnection;
 
     public static void create(String path, byte[] data) throws KeeperException, InterruptedException {
         zooKeeper.create(path, data, ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
@@ -25,10 +25,10 @@ public class ZKCreater {
         byte[] description = "test for zookeeper".getBytes();
 
         try {
-            zookeeperConnection = new ZookeeperConnection();
-            zooKeeper = zookeeperConnection.connect("127.0.0.1:2181");
+            zooKeeperConnection = new ZooKeeperConnection();
+            zooKeeper = zooKeeperConnection.connect("127.0.0.1:2181");
             create(path,description);
-            zookeeperConnection.close();
+            zooKeeperConnection.close();
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (IOException e) {

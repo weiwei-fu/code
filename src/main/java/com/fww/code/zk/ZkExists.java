@@ -13,13 +13,13 @@ public class ZkExists {
 
     private static ZooKeeper zooKeeper;
 
-    private static ZookeeperConnection conn;
+    private static ZooKeeperConnection conn;
 
     public static void main(String[] args) {
         String path = "/fwwtest1";
 
         try {
-            conn = new ZookeeperConnection();
+            conn = new ZooKeeperConnection();
             zooKeeper = conn.connect("localhost");
 
             Stat stat = znode_exists(path);
