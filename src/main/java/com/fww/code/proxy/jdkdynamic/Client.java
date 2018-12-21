@@ -1,4 +1,4 @@
-package com.fww.code.proxy.dynamic;
+package com.fww.code.proxy.jdkdynamic;
 
 import com.fww.code.proxy.singlestatic.RealStar;
 import com.fww.code.proxy.singlestatic.Star;

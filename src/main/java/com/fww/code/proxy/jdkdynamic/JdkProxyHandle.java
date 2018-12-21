@@ -1,4 +1,4 @@
-package com.fww.code.proxy.dynamic;
+package com.fww.code.proxy.jdkdynamic;
 
 import java.lang.reflect.Proxy;
 
