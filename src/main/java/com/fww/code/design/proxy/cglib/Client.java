@@ -1,7 +1,7 @@
-package com.fww.code.proxy.cglib;
+package com.fww.code.design.proxy.cglib;
 
-import com.fww.code.proxy.singlestatic.RealStar;
-import com.fww.code.proxy.singlestatic.Star;
+import com.fww.code.design.proxy.singlestatic.RealStar;
+import com.fww.code.design.proxy.singlestatic.Star;
 
 /**
  * Created by @author fww on 2018/12/21.

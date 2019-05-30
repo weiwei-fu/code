@@ -1,4 +1,4 @@
-package com.fww.code.proxy.cglib;
+package com.fww.code.design.proxy.cglib;
 
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
