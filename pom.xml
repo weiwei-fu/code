@@ -48,6 +48,15 @@
 			<artifactId>zookeeper</artifactId>
 			<version>3.4.11</version>
 		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.bytedeco/javacv -->
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>javacv</artifactId>
+			<version>1.4.4</version>
+		</dependency>
+
 	</dependencies>
 
 
