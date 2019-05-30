@@ -5,7 +5,7 @@ package com.fww.code.design.factory;
  */
 public interface Human {
 
-    void getColor();
+    String getColor();
 
     void talk();
 }

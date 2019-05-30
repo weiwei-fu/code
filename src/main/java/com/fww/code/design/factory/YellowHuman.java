@@ -5,8 +5,8 @@ package com.fww.code.design.factory;
  */
 public class YellowHuman implements Human {
     @Override
-    public void getColor() {
-        System.out.println("肤色："+Color.YELLOW.getValue());
+    public String getColor() {
+        return Color.YELLOW.getValue();
     }
 
     @Override
